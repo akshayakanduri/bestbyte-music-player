@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<songs>
+    <song>
+        <title>Top 50 - Global</title>
+        <description>Your daily updates of the most played tracks</description>
+        <image>assets/card1img.png</image>
+        <audio>assets/song1.mp3</audio>
+    </song>
+
+    <song>
+        <title>Top Songs - India</title>
+        <description>Trending songs in India</description>
+        <image>assets/card2img.png</image>
+        <audio>assets/song2.mp3</audio>
+    </song>
+
+    <song>
+        <title>Chill Hits</title>
+        <description>Relax and enjoy calm music</description>
+        <image>assets/card3img.png</image>
+        <audio>assets/song3.mp3</audio>
+    </song>
+
+    <song>
+        <title>Party Hits</title>
+        <description>High energy songs</description>
+        <image>assets/card4img.png</image>
+        <audio>assets/song4.mp3</audio>
+    </song>
+
+    <song>
+        <title>Party Hits</title>
+        <description>High energy songs</description>
+        <image>assets/card5img.png</image>
+        <audio>assets/song5.mp3</audio>
+    </song>
+
+    <song>
+        <title>Party Hits</title>
+        <description>High energy songs</description>
+        <image>assets/card6img.png</image>
+        <audio>assets/song6.mp3</audio>
+    </song>
+
+    <song>
+        <title>Party Hits</title>
+        <description>High energy songs</description>
+        <image>assets/card7img.png</image>
+        <audio>assets/song7.mp3</audio>
+    </song>
+
+    <song>
+        <title>Party Hits</title>
+        <description>High energy songs</description>
+        <image>assets/card8img.png</image>
+        <audio>assets/song8.mp3</audio>
+    </song>
+
+    <song>
+        <title>Party Hits</title>
+        <description>High energy songs</description>
+        <image>assets/card9img.png</image>
+        <audio>assets/song9.mp3</audio>
+    </song>
+</songs>
