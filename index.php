@@ -12,7 +12,6 @@
 <body>
 
 <?php
-// PHP reads the songs.xml file and parses it
 $xmlFile = 'songs.xml';
 $songs = [];
 
@@ -33,7 +32,6 @@ if (file_exists($xmlFile)) {
 
 <div class="main">
 
-    <!-- SIDEBAR -->
     <div class="sidebar">
         <div class="nav">
             <div class="nav-option" style="opacity:1;">
@@ -73,7 +71,6 @@ if (file_exists($xmlFile)) {
         </div>
     </div>
 
-    <!-- MAIN CONTENT -->
     <div class="main-content">
 
         <div class="sticky-nav">
@@ -91,7 +88,6 @@ if (file_exists($xmlFile)) {
             </div>
         </div>
 
-        <!-- PHP generates "Recently Played" from the FIRST song -->
         <h2>Recently Played</h2>
         <div class="cards-container">
             <?php if (!empty($songs)): ?>
@@ -104,7 +100,6 @@ if (file_exists($xmlFile)) {
             <?php endif; ?>
         </div>
 
-        <!-- PHP generates "Trending now near you" from songs 2 & 3 -->
         <h2>Trending now near you</h2>
         <div class="cards-container">
         <?php for ($i = 1; $i < min(4, count($songs)); $i++): ?>                    
@@ -117,7 +112,6 @@ if (file_exists($xmlFile)) {
             <?php endfor; ?>
         </div>
 
-        <!-- PHP generates "Featured Charts" from song 4 onwards -->
         <h2>Featured Charts</h2>
         <div class="cards-container">
         <?php for ($i = 3; $i < count($songs); $i++): ?>
@@ -143,7 +137,6 @@ if (file_exists($xmlFile)) {
     </div>
 </div>
 
-<!-- MUSIC PLAYER -->
 <div class="music-player">
 
     <div class="album" id="album-info" style="display:flex; align-items:center;">
