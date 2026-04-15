@@ -218,11 +218,9 @@ function togglePlay() {
     if (isPlaying) {
         audio.pause();
         isPlaying = false;
-        playBtn.src = "./assets/play_icon3.png";   // show play
     } else {
         audio.play();
         isPlaying = true;
-        playBtn.src = "./assets/pauseicon.png";  // show pause
     }
 }
 
